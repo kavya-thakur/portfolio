@@ -78,15 +78,6 @@ tl.to("#loader", {
 tl.to(".cursor", {
   opacity: 1
 })
-if (window.innerWidth >= 500) {
-  tl.from(".nav", {
-    opacity: 0
-  })
-  
-} else {
-  
-}
-
 
 // teeno element ko sleect karo, uske baad teeno par ek mousemove lagao, jab mousemove ho to ye pata karo ki mouse kaha par hai, jiska matlab hai mouse ki x and y position pata karo, ab mouse ki x y position ke badle us image ko show karo and us image ko move karo, move karte waqt rotate karo, and jaise jaise mouse tez chale waise waise rotation bhi tez ho jaye
 document.querySelectorAll(".elem").forEach(function (elem) {
@@ -176,6 +167,9 @@ cross.addEventListener("click", function () {
 
 // page1animation = gsap.timeline()
 if (window.innerWidth >= 500) {
+  tl.from(".nav", {
+    opacity: 0
+  })
   tl.from(".page1animate h1 , .page1animate h6 , .page1animate h3", {
     y: "100%",
     stagger: 0.2,
