@@ -141,12 +141,25 @@ imgg.forEach(function (elem) {
 
 let icon = document.querySelector(".menu")
 let menu = document.querySelector("#menu")
+let cross = document.querySelector(".icross")
 
 icon.addEventListener("click", function () {
-  console.log("hey");
   // let tl2 = gsap.Timeline()
   gsap.to("#menu", {
     top: "0%",
+  })
+  gsap.from(".animate", {
+    y: "120%",
+    stagger: 0.2,
+    duration: 0.7,
+    opacity: 1
+  })
+})
+cross.addEventListener("click", function () {
+  // let tl2 = gsap.Timeline()
+  gsap.to("#menu", {
+    top: "-100%",
+    duration: 0.6 ,
   })
   gsap.from(".animate", {
     y: "120%",

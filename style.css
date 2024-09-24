@@ -143,20 +143,25 @@ a {
     display: flex;
     -webkit-box-pack: end;
     -ms-flex-pack: end;
-    justify-content: end;
+    justify-content: center;
     -webkit-box-align: end;
     -ms-flex-align: end;
-    align-items: flex-end;
+    align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
     top: -100%;
 }
-
+.icross{
+    font-size: 4vw;
+    position: absolute;
+    top: 2%;
+    right : 5%;
+}
 #menu h2 {
-    font-size: 6vw;
-    padding: 1vw 0;
+    font-size: 4vw;
+    /* padding: 1vw 0; */
     font-family: "silk serif";
 }
 
@@ -518,6 +523,18 @@ a {
 .nav h3{
     font-size: 4vw;
 }
+.icross{
+    font-size: 8vw;
+    position: absolute;
+    top: 2%;
+    right : 5%;
+}
+#menu h2 {
+    font-size: 14vw;
+    /* padding: 1vw 0; */
+    font-family: "silk serif";
+}
+
 #page1 {
     height: fit-content;
     width: 100%;
