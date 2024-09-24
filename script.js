@@ -122,7 +122,6 @@ imgg.forEach(function (elem) {
       scale: 3
 
     })
-    console.log("hey");
     cursor.style.mixBlendMode = "normal"
     cursor.innerHTML = "VIEW MORE"
   })
