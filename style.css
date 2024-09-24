@@ -7,12 +7,12 @@
 
 @font-face {
     font-family: "plain regular";
-    src: url(/plain-regular-webfont.woff2);
+    src: url(./plain-regular-webfont.woff2);
 }
 
 @font-face {
     font-family: "silk serif";
-    src: url(/silkserif-regularitalic-webfont.woff2);
+    src: url(./silkserif-regularitalic-webfont.woff2);
 }
 
 * {
