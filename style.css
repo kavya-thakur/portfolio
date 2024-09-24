@@ -325,7 +325,6 @@ a {
     font-size: 1vw;
     font-weight: 300;
     color: white;
-
 }
 
 .a::after {
@@ -514,5 +513,161 @@ a {
     font-weight: 300;
     color: white;
     text-transform: uppercase;
+}
+
+
+@media (max-width : 500px){
+     
+    #loader {
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        z-index: 99;
+        background-color: #0b0b0b;
+        color: white;
+        padding: 20vh 9vw;
+     
+        /* display: none; */
+    }
+    
+    .line h1 {
+        font-family: "silk serif";
+        font-size: 7vw;
+    }
+    
+    .line h2 {
+        font-size: 7vw;
+    }
+    .cursor {
+    display: none;
+    }
+
+
+.nav {
+    height: 12vw;
+  
+}
+#page1 {
+    height: fit-content;
+    width: 100%;
+    background-color: #000000;
+    position: relative;
+}
+
+    .heading h1 {
+        font-size: 17vw;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    .heading {
+        opacity: 0.6;
+        color: white;
+        margin-top: 12vw;
+        padding-left: 4vw;
+        line-height: 14.7vw;
+
+    }
+    .heading2 h1 {
+        font-size: 17vw;
+        margin-left: 14vw;
+    }
+    
+    .heading2 h6 {
+        font-size: 3vw;
+    }
+    .midsection {
+        margin-top: vw;
+        padding: 0vw 3vw;
+    
+    }
+    .midheading h3 {
+        font-size: 2vw;
+    }
+    
+.bottom {
+    top:120%;
+}
+
+.bottom h3 {
+    font-size: 2vw;
+}
+
+
+#page2 {
+    height: fit-content;
+    margin-top: 12vw;
+}
+
+
+.elem {
+    border-top: 1px solid #888;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 3vw 3vw;
+    width: 100%;
+}
+
+
+.elem h1 {
+    font-size: 6vw;
+    opacity: 0.6;
+}
+
+.elem img {
+    position: absolute;
+    z-index: 999;
+    pointer-events: none !important;
+    height: 150%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+    
+#page3 {
+    width: 100%;
+    height: fit-content;
+    margin-top: 12vw;
+}
+.part2 h4 {
+    font-size: 1vw;
+    padding-bottom: 1vw;
+}
+
+.about {
+    margin-top: 10vw;
+    width: 100%;
+    padding-right: 17vw;
+    padding-left: 17vw;
+    padding-bottom: 20vw;
+}
+
+.footer {
+    padding: 0 5vw;
+    position: absolute;
+    bottom: 2%;
+    width: 100%;
+    padding: 6vw 2vw;
+}
+
+.right {
+
+    font-size: 2vw;
+}
+
+.footer h4 {
+    font-size: 2vw;
+}
+#main {
+    overflow: hidden;
+}
+
 
 }
