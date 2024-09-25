@@ -92,7 +92,7 @@ if (window.innerWidth >= 501) {
         duration: 0.5,
       });
       gsap.to(elem.querySelector("h1"), {
-        opacity: 0.7,
+        opacity: 1,
         x: 0
       })
     });

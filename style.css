@@ -29,7 +29,7 @@ body {
     color: white;
     height: 100%;
     width: 100%;
-    background-color: black;
+    /* background-color: black; */
 }
 
 a {
@@ -72,6 +72,9 @@ a {
     font-weight: 500;
     /* line-height: 6.9vw; */
     text-transform: uppercase;
+    background: linear-gradient(90deg, #D3CCE3 0%, #E9E4F0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .line h2 {
@@ -80,6 +83,9 @@ a {
     text-transform: uppercase;
     font-family: "silk serif";
     color: beige;
+    background: linear-gradient(90deg, #D3CCE3 0%, #E9E4F0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
 }
 
@@ -186,11 +192,13 @@ a {
 }
 
 #main {
-    background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #888, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #223333, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: black;
+    /* background: #000000; 
+    background: -webkit-linear-gradient(to left, #888, #000000);  
+    background: linear-gradient(to left, #223333, #000000);  */
     position: relative;
     width: 100%;
+
 }
 
 
@@ -228,8 +236,8 @@ a {
 }
 
 .heading {
-    opacity: 0.8;
-    color: white;
+    /* opacity: 0.8; */
+    /* color: white; */
     margin-top: 4vw;
     padding-left: 4vw;
     line-height: 9vw;
@@ -242,15 +250,18 @@ a {
     font-size: 10vw;
     text-transform: uppercase;
     font-weight: 600;
-    
+    background: linear-gradient(90deg, #D3CCE3 0%, #E9E4F0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 
 .heading2 {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
-    color: white;
-    opacity: 0.8;
+    /* color: white; */
+    /* opacity: 0.8; */
 
 }
 
@@ -259,7 +270,10 @@ a {
     text-transform: uppercase;
     margin-left: 14vw;
     color: white;
-    opacity: 0.8;
+    /* opacity: 0.8; */
+    background: linear-gradient(90deg, #D3CCE3 0%, #E9E4F0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .heading2 h6 {
@@ -389,7 +403,10 @@ a {
 
 .elem h1 {
     font-size: 6vw;
-    opacity: 0.6;
+    opacity: 1;
+    background: linear-gradient(90deg, #D3CCE3 0%, #E9E4F0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .elem img {
@@ -463,8 +480,10 @@ a {
 .part2 h5 {
     font-size: 1.3vw;
     font-weight: 300;
-    color: #999;
-
+    color: white;
+    background: linear-gradient(90deg, #D3CCE3 0%, #E9E4F0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .part2 h4 {
@@ -536,6 +555,9 @@ a {
         color: #fff;
         opacity: 0.8;
         font-weight: 300;
+        background: linear-gradient(90deg, #D3CCE3 0%, #E9E4F0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     .icross {
@@ -549,6 +571,9 @@ a {
         font-size: 14vw;
         /* padding: 1vw 0; */
         font-family: "silk serif";
+        background: linear-gradient(90deg, #D3CCE3 0%, #E9E4F0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     #page1 {
@@ -561,6 +586,9 @@ a {
         font-size: 16vw;
         text-transform: uppercase;
         font-weight: 300;
+        background: linear-gradient(90deg, #D3CCE3 0%, #E9E4F0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     .heading {
@@ -576,11 +604,17 @@ a {
         font-size: 16.5vw;
         margin-left: 14vw;
         font-weight: 300;
+        background: linear-gradient(90deg, #D3CCE3 0%, #E9E4F0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     .heading2 h6 {
         font-size: 2.9vw;
         font-weight: 300;
+        background: linear-gradient(90deg, #D3CCE3 0%, #E9E4F0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
 
     }
 
@@ -593,6 +627,9 @@ a {
     .midheading h3 {
         font-size: 3vw;
         font-weight: 300;
+        background: linear-gradient(90deg, #D3CCE3 0%, #E9E4F0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     .bottom {
@@ -606,6 +643,9 @@ a {
 
     .bottom h3 {
         font-size: 3vw;
+        background: linear-gradient(90deg, #D3CCE3 0%, #E9E4F0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
 
@@ -614,6 +654,7 @@ a {
         height: 80vh;
         /* background-color: blue; */
         /* margin-top: 12vw; */
+
     }
 
 
@@ -625,21 +666,11 @@ a {
 
     .elem h1 {
         font-size: 14vw;
-        opacity: 0.6;
+        opacity: 1;
+        background: linear-gradient(90deg, #D3CCE3 0%, #E9E4F0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
-
-    .elem img {
-        position: absolute;
-        z-index: 999;
-        pointer-events: none !important;
-        height: 150%;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        opacity: 0;
-    }
-
-
     #page3 {
         width: 100%;
         /* height: fit-content; */
@@ -661,6 +692,7 @@ a {
         display: inline-block;
         -webkit-animation: slider 10s linear infinite;
         animation: slider 10s linear infinite;
+
     }
 
     .part1 img {
@@ -677,6 +709,9 @@ a {
         font-size: 3.9vw;
         font-weight: 100;
         color: white;
+        background: linear-gradient(90deg, #D3CCE3 0%, #E9E4F0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
 
     }
 
@@ -686,6 +721,9 @@ a {
         opacity: 0.7;
         text-transform: uppercase;
         padding-bottom: 2vw;
+        background: linear-gradient(90deg, #D3CCE3 0%, #E9E4F0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
 
@@ -733,6 +771,9 @@ a {
     .right a {
         font-size: 3.5vw;
         font-weight: 300;
+        background: linear-gradient(90deg, #D3CCE3 0%, #E9E4F0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     .left {
