@@ -192,12 +192,8 @@ a {
 
 #main {
     background-color: black;
-    /* background: #000000; 
-    background: -webkit-linear-gradient(to left, #888, #000000);  
-    background: linear-gradient(to left, #223333, #000000);  */
     position: relative;
     width: 100%;
-
 }
 
 
@@ -357,7 +353,6 @@ a {
     font-weight: 300;
     color: white;
 }
-
 .a::after {
     content: "";
     position: absolute;
