@@ -532,7 +532,9 @@ a {
     }
 
     .nav h3 {
-        font-size: 4.5vw;
+        font-size: 3.5vw;
+        color: #fff;
+        opacity: 0.8;
         font-weight: 300;
     }
 
