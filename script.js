@@ -80,60 +80,64 @@ tl.to(".cursor", {
 })
 
 // teeno element ko sleect karo, uske baad teeno par ek mousemove lagao, jab mousemove ho to ye pata karo ki mouse kaha par hai, jiska matlab hai mouse ki x and y position pata karo, ab mouse ki x y position ke badle us image ko show karo and us image ko move karo, move karte waqt rotate karo, and jaise jaise mouse tez chale waise waise rotation bhi tez ho jaye
-document.querySelectorAll(".elem").forEach(function (elem) {
-  var rot = 0;
-  var diffrot = 0;
-  elem.addEventListener("mouseleave", function (dets) {
-    gsap.to(elem.querySelector("img"), {
-      opacity: 0,
-      ease: Power3,
-      duration: 0.5,
+
+if (window.innerWidth >= 501) {
+  document.querySelectorAll(".elem").forEach(function (elem) {
+    var rot = 0;
+    var diffrot = 0;
+    elem.addEventListener("mouseleave", function (dets) {
+      gsap.to(elem.querySelector("img"), {
+        opacity: 0,
+        ease: Power3,
+        duration: 0.5,
+      });
+      gsap.to(elem.querySelector("h1"), {
+        opacity: 0.7,
+        x: 0
+      })
     });
-    gsap.to(elem.querySelector("h1"), {
-      opacity: 0.7,
-      x: 0
-    })
-  });
-  elem.addEventListener("mousemove", function (dets) {
-    var diff = dets.clientY - elem.getBoundingClientRect().top;
-    diffrot = dets.clientX - rot;
-    rot = dets.clientX;
-    gsap.to(elem.querySelector("img"), {
-      opacity: 1,
-      ease: Power3,
-      // scroller : "#main" ,
-      top: diff,
-      left: dets.clientX,
-      rotate: gsap.utils.clamp(-20, 20, diffrot * 0.5),
-
+    elem.addEventListener("mousemove", function (dets) {
+      var diff = dets.clientY - elem.getBoundingClientRect().top;
+      diffrot = dets.clientX - rot;
+      rot = dets.clientX;
+      gsap.to(elem.querySelector("img"), {
+        opacity: 1,
+        ease: Power3,
+        // scroller : "#main" ,
+        top: diff,
+        left: dets.clientX,
+        rotate: gsap.utils.clamp(-20, 20, diffrot * 0.5),
+  
+      });
+      gsap.to(elem.querySelector("h1"), {
+        opacity: 0.2,
+        x: 40
+      })
     });
-    gsap.to(elem.querySelector("h1"), {
-      opacity: 0.2,
-      x: 40
-    })
+  
   });
-
-});
-let imgg = document.querySelectorAll(".elem")
-imgg.forEach(function (elem) {
-  elem.addEventListener("mouseenter", function () {
-    gsap.to(".cursor", {
-      scale: 3
-
+  let imgg = document.querySelectorAll(".elem")
+  imgg.forEach(function (elem) {
+    elem.addEventListener("mouseenter", function () {
+      gsap.to(".cursor", {
+        scale: 3
+  
+      })
+      cursor.style.mixBlendMode = "normal"
+      cursor.innerHTML = "VIEW MORE"
     })
-    cursor.style.mixBlendMode = "normal"
-    cursor.innerHTML = "VIEW MORE"
-  })
-  elem.addEventListener("mouseleave", function () {
-    gsap.to(".cursor", {
-      scale: 1
-
+    elem.addEventListener("mouseleave", function () {
+      gsap.to(".cursor", {
+        scale: 1
+  
+      })
+      cursor.style.mixBlendMode = "difference"
+      cursor.innerHTML = ""
     })
-    console.log("hey");
-    cursor.style.mixBlendMode = "difference"
-    cursor.innerHTML = ""
   })
-})
+  
+}else{
+}
 
 let icon = document.querySelector(".menu")
 let menu = document.querySelector("#menu")
@@ -155,7 +159,7 @@ cross.addEventListener("click", function () {
   // let tl2 = gsap.Timeline()
   gsap.to("#menu", {
     top: "-100%",
-    duration: 0.6 ,
+    duration: 0.6,
   })
   gsap.from(".animate", {
     y: "120%",
@@ -166,22 +170,36 @@ cross.addEventListener("click", function () {
 })
 
 // page1animation = gsap.timeline()
-if (window.innerWidth >= 500) {
-  tl.from(".nav", {
+tll = gsap.timeline()
+if (window.innerWidth >= 501) {
+  tll.from(".nav", {
     opacity: 0
   })
-  tl.from(".page1animate h1 , .page1animate h6 , .page1animate h3", {
+  tll.from(".page1animate h1 , .page1animate h6 , .page1animate h3", {
     y: "100%",
     stagger: 0.2,
     duration: 0.7,
     opacity: 1
   })
-  tl.from(".bottom h3", {
+  tll.from(".bottom h3", {
     opacity: 0
   })
-} else {
-  
+} else if (window.innerWidth <= 500) {
+  tll.from(".nav", {
+    opacity: 0
+  })
+  tll.from(".page1animate h1 , .page1animate h6 , .page1animate h3", {
+    y: "100%",
+    stagger: 0.2,
+    duration: 0.7,
+    opacity: 1
+  })
+  tll.from(".bottom h3", {
+    opacity: 0
+  })
+
 }
+
 // tl.from(".page1animate h1 , .page1animate h6 , .page1animate h3", {
 //   y: "100%",
 //   stagger: 0.2,
