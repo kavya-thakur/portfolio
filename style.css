@@ -67,7 +67,11 @@ a {
     font-weight: 500;
     /* line-height: 6.9vw; */
     text-transform: uppercase;
-  color: white;
+    background: -webkit-gradient(linear, left top, right top, from(#D3CCE3), to(#E9E4F0));
+    background: -o-linear-gradient(left, #D3CCE3 0%, #E9E4F0 100%);
+    background: linear-gradient(90deg, #D3CCE3 0%, #E9E4F0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .line h2 {
@@ -76,7 +80,11 @@ a {
     text-transform: uppercase;
     font-family: "silk serif";
     color: beige;
-  color: white;
+    background: -webkit-gradient(linear, left top, right top, from(#D3CCE3), to(#E9E4F0));
+    background: -o-linear-gradient(left, #D3CCE3 0%, #E9E4F0 100%);
+    background: linear-gradient(90deg, #D3CCE3 0%, #E9E4F0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
 }
 
@@ -237,8 +245,12 @@ a {
     font-size: 10vw;
     text-transform: uppercase;
     font-weight: 600;
-    color: white;
-    opacity: 1;
+    background: -webkit-gradient(linear, left top, right top, from(#D3CCE3), to(#E9E4F0));
+    background: -o-linear-gradient(left, #D3CCE3 0%, #E9E4F0 100%);
+    background: linear-gradient(90deg, #D3CCE3 0%, #E9E4F0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 
 .heading2 {
@@ -256,7 +268,11 @@ a {
     margin-left: 14vw;
     color: white;
     /* opacity: 0.8; */
-  color: white;
+    background: -webkit-gradient(linear, left top, right top, from(#D3CCE3), to(#E9E4F0));
+    background: -o-linear-gradient(left, #D3CCE3 0%, #E9E4F0 100%);
+    background: linear-gradient(90deg, #D3CCE3 0%, #E9E4F0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .heading2 h6 {
@@ -386,7 +402,11 @@ a {
 .elem h1 {
     font-size: 6vw;
     opacity: 1;
-  color: white;
+    background: -webkit-gradient(linear, left top, right top, from(#D3CCE3), to(#E9E4F0));
+    background: -o-linear-gradient(left, #D3CCE3 0%, #E9E4F0 100%);
+    background: linear-gradient(90deg, #D3CCE3 0%, #E9E4F0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .elem img {
@@ -461,7 +481,11 @@ a {
     font-size: 1.3vw;
     font-weight: 300;
     color: white;
-  color: white;
+    background: -webkit-gradient(linear, left top, right top, from(#D3CCE3), to(#E9E4F0));
+    background: -o-linear-gradient(left, #D3CCE3 0%, #E9E4F0 100%);
+    background: linear-gradient(90deg, #D3CCE3 0%, #E9E4F0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .part2 h4 {
@@ -533,7 +557,11 @@ a {
         color: #fff;
         opacity: 0.8;
         font-weight: 300;
-       color: white;
+        background: -webkit-gradient(linear, left top, right top, from(#D3CCE3), to(#E9E4F0));
+        background: -o-linear-gradient(left, #D3CCE3 0%, #E9E4F0 100%);
+        background: linear-gradient(90deg, #D3CCE3 0%, #E9E4F0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     .icross {
@@ -547,7 +575,11 @@ a {
         font-size: 14vw;
         /* padding: 1vw 0; */
         font-family: "silk serif";
-       color: white;
+        background: -webkit-gradient(linear, left top, right top, from(#D3CCE3), to(#E9E4F0));
+        background: -o-linear-gradient(left, #D3CCE3 0%, #E9E4F0 100%);
+        background: linear-gradient(90deg, #D3CCE3 0%, #E9E4F0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     #page1 {
@@ -560,7 +592,11 @@ a {
         font-size: 16vw;
         text-transform: uppercase;
         font-weight: 300;
-       color: white;
+        background: -webkit-gradient(linear, left top, right top, from(#D3CCE3), to(#E9E4F0));
+        background: -o-linear-gradient(left, #D3CCE3 0%, #E9E4F0 100%);
+        background: linear-gradient(90deg, #D3CCE3 0%, #E9E4F0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     .heading {
@@ -576,14 +612,21 @@ a {
         font-size: 16.5vw;
         margin-left: 14vw;
         font-weight: 300;
-       color: white;
-       opacity: 1;
+        background: -webkit-gradient(linear, left top, right top, from(#D3CCE3), to(#E9E4F0));
+        background: -o-linear-gradient(left, #D3CCE3 0%, #E9E4F0 100%);
+        background: linear-gradient(90deg, #D3CCE3 0%, #E9E4F0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     .heading2 h6 {
         font-size: 2.9vw;
         font-weight: 300;
-       color: white;
+        background: -webkit-gradient(linear, left top, right top, from(#D3CCE3), to(#E9E4F0));
+        background: -o-linear-gradient(left, #D3CCE3 0%, #E9E4F0 100%);
+        background: linear-gradient(90deg, #D3CCE3 0%, #E9E4F0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
 
     }
 
@@ -596,7 +639,11 @@ a {
     .midheading h3 {
         font-size: 3vw;
         font-weight: 300;
-       color: white;
+        background: -webkit-gradient(linear, left top, right top, from(#D3CCE3), to(#E9E4F0));
+        background: -o-linear-gradient(left, #D3CCE3 0%, #E9E4F0 100%);
+        background: linear-gradient(90deg, #D3CCE3 0%, #E9E4F0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     .bottom {
@@ -610,7 +657,11 @@ a {
 
     .bottom h3 {
         font-size: 3vw;
-       color: white;
+        background: -webkit-gradient(linear, left top, right top, from(#D3CCE3), to(#E9E4F0));
+        background: -o-linear-gradient(left, #D3CCE3 0%, #E9E4F0 100%);
+        background: linear-gradient(90deg, #D3CCE3 0%, #E9E4F0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
 
@@ -632,7 +683,11 @@ a {
     .elem h1 {
         font-size: 14vw;
         opacity: 1;
-        color: white;
+        background: -webkit-gradient(linear, left top, right top, from(#D3CCE3), to(#E9E4F0));
+        background: -o-linear-gradient(left, #D3CCE3 0%, #E9E4F0 100%);
+        background: linear-gradient(90deg, #D3CCE3 0%, #E9E4F0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     #page3 {
@@ -674,17 +729,25 @@ a {
         font-size: 3.9vw;
         font-weight: 100;
         color: white;
-       opacity: 0.8;
+        background: -webkit-gradient(linear, left top, right top, from(#D3CCE3), to(#E9E4F0));
+        background: -o-linear-gradient(left, #D3CCE3 0%, #E9E4F0 100%);
+        background: linear-gradient(90deg, #D3CCE3 0%, #E9E4F0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
 
     }
 
     .part2 h4 {
         font-size: 3vw;
         font-weight: 100;
-        opacity: 1;
+        opacity: 0.7;
         text-transform: uppercase;
         padding-bottom: 2vw;
-        color: white;
+        background: -webkit-gradient(linear, left top, right top, from(#D3CCE3), to(#E9E4F0));
+        background: -o-linear-gradient(left, #D3CCE3 0%, #E9E4F0 100%);
+        background: linear-gradient(90deg, #D3CCE3 0%, #E9E4F0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
 
@@ -741,12 +804,15 @@ a {
     .right a {
         font-size: 3.5vw;
         font-weight: 300;
-        color: white;
+        background: -webkit-gradient(linear, left top, right top, from(#D3CCE3), to(#E9E4F0));
+        background: -o-linear-gradient(left, #D3CCE3 0%, #E9E4F0 100%);
+        background: linear-gradient(90deg, #D3CCE3 0%, #E9E4F0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     .left {
         display: none;
-        color: white;
     }
 
     #main {
